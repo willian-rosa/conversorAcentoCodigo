@@ -56,11 +56,3 @@ class ConversorCodigo {
 	
 	
 }
-
-
-$converte = new ConversorCodigo('ação ');
-
-echo 'HTML<br>';
-echo $converte->converteHtml();
-echo '<br><br>JavaScript<br>';
-echo $converte->converteJs();
